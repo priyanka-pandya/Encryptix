@@ -8,14 +8,16 @@ root.title("Rock-Paper-Scissors Game")
 
 def load_images():
     images = {
-        'rock-user': ImageTk.PhotoImage(Image.open("images/rock-user.png")),
-        'rock-comp': ImageTk.PhotoImage(Image.open("images/rock-comp.png")),
-        'scissors-user': ImageTk.PhotoImage(Image.open("images/scissors-user.png")),
-        'scissors-comp': ImageTk.PhotoImage(Image.open("images/scissors-comp.png")),
-        'paper-user': ImageTk.PhotoImage(Image.open("images/paper-user.png")),
-        'paper-comp': ImageTk.PhotoImage(Image.open("images/paper-comp.png"))
+        'rock-user': ImageTk.PhotoImage(Image.open(r"D:\Encryptix\Encryptix\rockpaperScissor\images\rock-user.png")),
+        'rock-comp': ImageTk.PhotoImage(Image.open(r"D:\Encryptix\Encryptix\rockpaperScissor\images\rock-comp.png")),
+        'scissors-user': ImageTk.PhotoImage(Image.open(r"D:\Encryptix\Encryptix\rockpaperScissor\images\scissors-user.png")),
+        'scissors-comp': ImageTk.PhotoImage(Image.open(r"D:\Encryptix\Encryptix\rockpaperScissor\images\scissors-comp.png")),
+        'paper-user': ImageTk.PhotoImage(Image.open(r"D:\Encryptix\Encryptix\rockpaperScissor\images\paper-user.png")),
+        'paper-comp': ImageTk.PhotoImage(Image.open(r"D:\Encryptix\Encryptix\rockpaperScissor\images\paper-comp.png"))
     }
     return images
+
+ 
 
 images = load_images()
 
