@@ -19,7 +19,7 @@ def main():
     instructions_label.pack(side=tk.BOTTOM, fill=tk.X, pady=20)
 
 
-    icon = PhotoImage(file="con.png")   
+    icon = PhotoImage(file="D:/Encryptix/Encryptix/ContactBookApp/con.png")   
     root.iconphoto(False, icon)
 
      
